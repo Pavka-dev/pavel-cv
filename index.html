@@ -1,195 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>CV | Pavel Aleksandrov</title>
-
-  <!-- Inter font for cleaner typography -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    html, body { height: 100%; }
-    body { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
-    /* subtle print-friendly adjustments */
-    @media print {
-      body { color-scheme: light; background: white; }
-      .no-print { display: none !important; }
-      .page { box-shadow: none; border: none; margin: 0; }
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>CV | Pavel Aleksandrov</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-50 text-slate-800 p-6 sm:p-12">
-  <main class="max-w-4xl mx-auto page bg-white border border-slate-200 rounded-2xl shadow-lg overflow-hidden">
-    <!-- Header -->
-    <header class="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-8">
-      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-        <div>
-          <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Pavel Aleksandrov</h1>
-          <p class="mt-1 text-slate-200 text-lg">Software Developer · Industrial & Series Production Specialist</p>
-        </div>
-
-        <div class="flex items-start gap-4 text-sm text-slate-200">
-          <div class="bg-slate-900/40 px-4 py-3 rounded-md">
-            <div class="flex items-center gap-2">
-              <!-- Location icon -->
-              <svg class="w-4 h-4 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 11.5a3 3 0 100-6 3 3 0 000 6z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21s7-4.5 7-10.5S15.866 2 12 2 5 5 5 10.5 12 21 12 21z"/></svg>
-              <span>Tavastilankatu 6 c 19, 20610 Turku</span>
+<body class="bg-slate-50 text-slate-800 p-4 sm:p-8 font-sans">
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden border border-slate-200">
+        
+        <header class="bg-[#0f172a] text-white p-8">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <div>
+                    <h1 class="text-4xl font-bold tracking-tight">Pavel Aleksandrov</h1>
+                    <p class="text-xl text-blue-400 mt-2 font-medium">
+                        Software Engineer — Transitioning 12 years of high-precision "Micron-level" discipline into "Bit-level" software engineering
+                    </p>
+                </div>
+                <div class="mt-6 md:mt-0 text-sm space-y-1 text-slate-300">
+                    <p>Tavastilankatu 6 c 19, 20610 Turku</p>
+                    <p>045 350 9565 | p.aleksandrov@gmail.com</p>
+                </div>
             </div>
-            <div class="mt-2 flex flex-col">
-              <a class="flex items-center gap-2 text-slate-200 hover:underline" href="tel:+358453509565" aria-label="Call">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5.5A2.5 2.5 0 015.5 3h2A2.5 2.5 0 0110 5.5V7a2 2 0 01-2 2H6.5A2.5 2.5 0 014 8.5v-3z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 20.5a2.5 2.5 0 01-2.5 2.5h-11A2.5 2.5 0 015 20.5V7.5A2.5 2.5 0 017.5 5H9"/></svg>
-                +358 45 350 9565
-              </a>
-              <a class="flex items-center gap-2 text-slate-200 hover:underline mt-1" href="mailto:p.aleksandrov@gmail.com" aria-label="Email">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l8.5 6L20 8"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 19H3V7a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-                p.aleksandrov@gmail.com
-              </a>
+            <div class="mt-8 border-t border-slate-700 pt-4 text-center">
+                <p class="italic text-slate-300">
+                    I believe "impossible" is simply a placeholder for missing knowledge. My career proves that with the right research and time, any system can be optimized.
+                </p>
             </div>
-          </div>
+        </header>
+
+        <div class="p-6 md:p-10 space-y-12">
+            
+            <section>
+                <h2 class="text-xl font-bold text-slate-900 border-b-2 border-blue-600 pb-2 mb-4 uppercase">Professional Profile</h2>
+                <p class="leading-relaxed text-slate-700">
+                    Transitioning 12 years of high-precision "Micron-level" discipline into "Bit-level" software engineering: a technical leader who applies industrial-grade measurement, root-cause analysis, and systems thinking to backend and performance work. Proven in production environments where reliability, deterministic processes, and continuous improvement are mandatory.
+                    <strong class="block mt-3">Validation:</strong> Elected MVP by peers at kood/Sisu and maintaining a Grade 5/5 average across all software modules — not merely passing, but achieving the top score in coursework and team evaluation.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-xl font-bold text-slate-900 border-b-2 border-blue-600 pb-2 mb-6 uppercase">Work Experience</h2>
+                
+                <div class="space-y-10">
+                    <div>
+                        <div class="flex flex-col md:flex-row justify-between mb-2">
+                            <h3 class="text-lg font-bold text-slate-900">Production Supervisor (Työnjohtaja) | HT Laser Oy</h3>
+                            <span class="text-slate-500 font-medium">05/2021 – Present</span>
+                        </div>
+                        <ul class="list-disc list-outside ml-5 space-y-2 text-slate-700">
+                            <li>Engineered the growth of a production department from a single-machine startup to a 7-person, 3-shift operation, formalizing shift processes, KPIs, and handover logic to enable scalable, repeatable output.</li>
+                            <li>Directed method planning, shift management, and technical verification while instituting continuous-improvement routines for throughput and quality.</li>
+                            <li>Served as lead expert for equipment troubleshooting and industrial diagnostics — responsibilities that earned external recognition: headhunted three separate times for the Production Manager role at Kone-Tuomi.</li>
+                            <li><strong>Outcome:</strong> Measured increases in throughput, reduced downtime, and established a staffing and process blueprint for rapid scale.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="flex flex-col md:flex-row justify-between mb-2">
+                            <h3 class="text-lg font-bold text-slate-900">CNC Programmer & Specialist | Salon Metalelektro Oy</h3>
+                            <span class="text-slate-500 font-medium">2019 – 2021</span>
+                        </div>
+                        <ul class="list-disc list-outside ml-5 space-y-2 text-slate-700">
+                            <li>Led a Root Cause Analysis & Logical Redesign of Renishaw measuring cycles: rethought measurement sequencing and control logic to reduce per-measurement time from 30s to 7s (≈75% improvement).</li>
+                            <li>Implemented the change as a fundamental rewrite of measurement logic and tooling integration — a systems-level fix rather than a superficial timing tweak.</li>
+                            <li>Managed programming and method planning for both series production and prototypes, balancing cycle-time optimization with geometric tolerances and inspection requirements.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="flex flex-col md:flex-row justify-between mb-2">
+                            <h3 class="text-lg font-bold text-slate-900">Toolmaker (Työvälinevalmistaja) | Turun Sarjatuote Oy</h3>
+                            <span class="text-slate-500 font-medium">2015 – 2019</span>
+                        </div>
+                        <p class="text-slate-700 ml-5">High-precision Mastercam programming and machining for steel and aluminum components, producing production-ready fixtures and tooling with documented tolerances and validated inspection plans.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="grid md:grid-cols-2 gap-10">
+                <div>
+                    <h2 class="text-xl font-bold text-slate-900 border-b-2 border-blue-600 pb-2 mb-4 uppercase">Education & Certification</h2>
+                    <ul class="space-y-4 text-slate-700">
+                        <li>
+                            <p class="font-bold">Fullstack Developer (Ongoing) — kood/Sisu</p>
+                            <p class="text-sm text-slate-600 italic">Sprint MVP; elected team MVP and maintaining a Grade 5/5 average across software modules.</p>
+                        </li>
+                        <li>
+                            <p class="font-bold">Electrician & Automation Modules — Turun AKK</p>
+                            <p class="text-sm text-slate-600 italic">Completed with top marks (Grade 5/5) — formal training in electrical systems and automation logic.</p>
+                        </li>
+                        <li>
+                            <p class="font-bold">CNC Machinist Qualification — Turun AKK</p>
+                            <p class="text-sm text-slate-600 italic">Graduated with Honors; specialization in precision machining and production processes.</p>
+                        </li>
+                        <li>
+                            <p class="font-bold">Cisco Networking (CCNA)</p>
+                            <p class="text-sm text-slate-600 italic">Cisco Networking Academy — certified in networking fundamentals and routing logic.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-xl font-bold text-slate-900 border-b-2 border-blue-600 pb-2 mb-4 uppercase">Technical Pillars</h2>
+                    <div class="space-y-4 text-slate-700">
+                        <div>
+                            <h4 class="font-bold text-sm text-slate-500 uppercase">Backend & Performance</h4>
+                            <p>Go (Golang), PostgreSQL, Docker — focused on deterministic behaviour, performance profiling, and resilient deployment patterns.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm text-slate-500 uppercase">Frontend & UX</h4>
+                            <p>JavaScript, React, Tailwind CSS — building interfaces that present deterministic state and usable diagnostics for operational teams.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm text-slate-500 uppercase">Industrial Architecture</h4>
+                            <p>CNC Logic (Heidenhain, Fanuc), Mastercam, SolidWorks; Electrical Systems (Grade 5/5); Cisco CCNA — bridging factory automation, control logic, and networked instrumentation.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-sm text-slate-500 uppercase">Languages</h4>
+                            <p>English (Excellent), Finnish (Good), Bulgarian (Native), Russian (Good)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="bg-slate-50 p-6 rounded-lg border border-slate-200 text-center italic text-slate-600">
+                Standing return offers from previous employers reflect a long-term focus on reliability, measurable improvement, and trustworthiness.
+            </footer>
         </div>
-      </div>
-
-      <div class="mt-6 border-t border-white/10 pt-4">
-        <p class="italic text-slate-200 text-sm max-w-2xl">"Nothing is impossible. To say otherwise only proves a lack of knowledge or a lack of time."</p>
-      </div>
-    </header>
-
-    <!-- Body: two-column layout -->
-    <div class="p-8 md:p-10 grid md:grid-cols-3 gap-8">
-      <!-- Left: main content -->
-      <section class="md:col-span-2 space-y-8">
-        <div>
-          <h2 class="text-lg font-semibold text-slate-900 mb-3">Professional Profile</h2>
-          <p class="text-slate-700 leading-relaxed">
-            A highly devoted worker and technical leader with over 12 years of experience in high-precision heavy machining and series production. Elected MVP and top-scoring student at kood/Sisu; currently maintaining a Grade 5/5 average across all software modules.
-          </p>
-        </div>
-
-        <div>
-          <h2 class="text-lg font-semibold text-slate-900 mb-4">Work Experience</h2>
-          <div class="space-y-6">
-            <article class="border-l-2 border-slate-200 pl-4">
-              <div class="flex justify-between items-start">
-                <h3 class="font-bold text-slate-900">Production Supervisor (Työnjohtaja) · HT Laser Oy</h3>
-                <time class="text-sm text-slate-500">05/2021 – Present</time>
-              </div>
-              <ul class="list-disc ml-5 mt-3 text-slate-700 space-y-1">
-                <li>Scaled department operations from 2 workers to a 7-person, 3-shift team.</li>
-                <li>Directed method planning, shift management, and technical verification.</li>
-                <li>Lead expert in equipment troubleshooting and industrial diagnostics.</li>
-                <li><strong>Reputation:</strong> Three-time offer recipient for the Production Manager role at Kone-Tuomi.</li>
-              </ul>
-            </article>
-
-            <article class="border-l-2 border-slate-200 pl-4">
-              <div class="flex justify-between items-start">
-                <h3 class="font-bold text-slate-900">CNC Programmer & Specialist · Salon Metalelektro Oy</h3>
-                <time class="text-sm text-slate-500">2019 – 2021</time>
-              </div>
-              <ul class="list-disc ml-5 mt-3 text-slate-700 space-y-1">
-                <li>Optimized Renishaw measuring cycles, reducing time from 30s to 7s (≈75% improvement).</li>
-                <li>Managed programming and method planning for series production and prototypes.</li>
-              </ul>
-            </article>
-
-            <article class="border-l-2 border-slate-200 pl-4">
-              <div class="flex justify-between items-start">
-                <h3 class="font-bold text-slate-900">Toolmaker (Työvälinevalmistaja) · Turun Sarjatuote Oy</h3>
-                <time class="text-sm text-slate-500">2015 – 2019</time>
-              </div>
-              <p class="mt-3 text-slate-700">High-precision Mastercam programming and machining for steel and aluminum components.</p>
-            </article>
-          </div>
-        </div>
-
-        <div>
-          <h2 class="text-lg font-semibold text-slate-900 mb-3">Education</h2>
-          <ul class="space-y-4 text-slate-700">
-            <li>
-              <div class="flex justify-between items-baseline">
-                <p class="font-semibold">Fullstack Developer (Ongoing) · kood/Sisu</p>
-                <span class="text-sm text-slate-500">Grade 5/5</span>
-              </div>
-              <p class="text-sm text-slate-500 italic mt-1">Sprint MVP</p>
-            </li>
-            <li>
-              <div class="flex justify-between items-baseline">
-                <p class="font-semibold">Electrician & Automation Modules · Turun AKK</p>
-                <span class="text-sm text-slate-500">Grade 5/5</span>
-              </div>
-            </li>
-            <li>
-              <div class="flex justify-between items-baseline">
-                <p class="font-semibold">CNC Machinist Qualification · Turun AKK</p>
-                <span class="text-sm text-slate-500">Graduated with Honors</span>
-              </div>
-            </li>
-            <li>
-              <div class="flex justify-between items-baseline">
-                <p class="font-semibold">Cisco Networking (CCNA) · Cisco Networking Academy</p>
-                <span class="text-sm text-slate-500"></span>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- Right: sidebar -->
-      <aside class="space-y-6">
-        <div class="bg-slate-50 border border-slate-200 rounded-lg p-4">
-          <h3 class="text-sm font-semibold text-slate-600 uppercase">Summary</h3>
-          <p class="text-slate-700 mt-2 text-sm">Reliable, results-driven technical lead with cross-disciplinary expertise in software and industrial production. Strong problem solving and process optimization background.</p>
-        </div>
-
-        <div class="bg-white border border-slate-200 rounded-lg p-4">
-          <h3 class="text-sm font-semibold text-slate-600 uppercase">Technical Skills</h3>
-          <div class="mt-3 space-y-3 text-slate-700 text-sm">
-            <div>
-              <div class="text-xs font-medium text-slate-500 uppercase mb-1">Software</div>
-              <div class="flex flex-wrap gap-2">
-                <span class="px-2 py-1 rounded-full text-xs bg-blue-50 text-blue-700">Go</span>
-                <span class="px-2 py-1 rounded-full text-xs bg-blue-50 text-blue-700">JavaScript</span>
-                <span class="px-2 py-1 rounded-full text-xs bg-blue-50 text-blue-700">React</span>
-                <span class="px-2 py-1 rounded-full text-xs bg-blue-50 text-blue-700">PostgreSQL</span>
-                <span class="px-2 py-1 rounded-full text-xs bg-blue-50 text-blue-700">Docker</span>
-                <span class="px-2 py-1 rounded-full text-xs bg-blue-50 text-blue-700">Git</span>
-              </div>
-            </div>
-
-            <div>
-              <div class="text-xs font-medium text-slate-500 uppercase mb-1">Heavy Machining</div>
-              <p class="text-sm">Heidenhain, Mazak, Fanuc, Mastercam, SolidWorks</p>
-            </div>
-
-            <div>
-              <div class="text-xs font-medium text-slate-500 uppercase mb-1">Languages</div>
-              <p class="text-sm">English (Excellent), Finnish (Good), Bulgarian (Native), Russian (Good)</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-slate-50 border border-slate-200 rounded-lg p-4">
-          <h3 class="text-sm font-semibold text-slate-600 uppercase">Highlights</h3>
-          <ul class="mt-2 text-sm text-slate-700 list-disc ml-5 space-y-1">
-            <li>Three-time Production Manager offer at Kone-Tuomi.</li>
-            <li>Renishaw cycle time improvement: 30s → 7s.</li>
-            <li>Grade 5/5 across software modules at kood/Sisu.</li>
-          </ul>
-        </div>
-
-        <div class="text-xs text-center text-slate-500 italic">
-          "I hold standing return offers from every previous employer—a testament to long-term reliability and a high professional standard."
-        </div>
-      </aside>
     </div>
-
-    <footer class="p-6 text-center text-xs text-slate-500 no-print">
-      Built with care · Printable-friendly · Last updated: 2026-01-30
-    </footer>
-  </main>
 </body>
 </html>
